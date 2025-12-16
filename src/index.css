@@ -119,7 +119,9 @@ a:hover {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: url(/profile-pic.png) center/cover no-repeat, radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+  /* Use repo base path to avoid 404 on GitHub Pages */
+  background: url(/meu_portfolio/profile-pic.png) center/cover no-repeat,
+    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
 }
