@@ -119,8 +119,8 @@ a:hover {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  /* Relative path to work with Vite base './' on GitHub Pages */
-  background: url(./profile-pic.png) center/cover no-repeat,
+  /* Resolve image from public with dynamic base URL */
+  background: url("var(--base-url)profile-pic.png") center/cover no-repeat,
     radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
