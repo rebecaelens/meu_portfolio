@@ -119,8 +119,7 @@ a:hover {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  /* Resolve image from public with dynamic base URL */
-  background: url("var(--base-url)profile-pic.png") center/cover no-repeat,
+  background: url(/profile-pic.png) center/cover no-repeat,
     radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
@@ -137,12 +136,6 @@ a:hover {
   flex-direction: column;
   gap: 12px;
 }
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  /* Public assets on Vercel are served at root */
-  background: url(/profile-pic.png) center/cover no-repeat,
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
 .hero-actions {
