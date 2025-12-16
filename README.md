@@ -27,6 +27,11 @@ npm run build
 npm run preview
 ```
 
+## Deploy (GitHub Pages)
+- Link publicado: https://rebecaelens.github.io/meu_portfolio/
+- Build automatizado via GitHub Actions (workflow `Deploy to GitHub Pages`).
+- Para disparar manualmente: abra Actions → `Deploy to GitHub Pages` → Run workflow.
+
 ## Estrutura
 - `src/App.tsx`: layout principal do portfólio.
 - `src/index.css`: estilos base.
