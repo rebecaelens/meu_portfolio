@@ -627,9 +627,6 @@ function App() {
       <footer className="footer">
         <span>{locale.footerCredit}</span>
         <span>{locale.footerQuote}</span>
-        <a className="link" href={`mailto:${locale.email}`}>
-          {locale.email}
-        </a>
       </footer>
     </div>
   );
