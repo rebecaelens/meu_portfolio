@@ -28,17 +28,24 @@ type LocaleContent = {
   heroLede: string;
   ctaPrimary: string;
   ctaSecondary: string;
+  aboutEyebrow: string;
   aboutTitle: string;
   aboutHint: string;
   aboutBody: string;
+  portfolioEyebrow: string;
+  portfolioTitle: string;
   portfolioHint: string;
   blogEyebrow: string;
   blogTitle: string;
   blogSeeAll: string;
+  blogBackLabel: string;
   readMore: string;
+  viewMore: string;
   contactTitle: string;
   contactBody: string;
+  contactEyebrow: string;
   footerCredit: string;
+  footerQuote: string;
   footerEmailLabel: string;
   email: string;
   dateLocale: string;
@@ -57,19 +64,26 @@ const locales: Record<LocaleKey, LocaleContent> = {
       'Sou uma desenvolvedora full stack no início da carreira, com olhar sério, inspirador e bem-humorado. Curto equilibrar acessibilidade, performance e impacto social em tudo o que entrego.',
     ctaPrimary: 'Ver projetos',
     ctaSecondary: 'Vamos conversar sobre seu produto',
+    aboutEyebrow: 'Sobre',
     aboutTitle: 'Objetiva, direta e presente',
     aboutHint: 'Acessibilidade • Performance • Impacto social',
     aboutBody:
       'Gosto de projetos enxutos que resolvem problemas reais. Minha combinação preferida é código limpo, decisões de UX claras e entregas frequentes. Estudo continuamente para reduzir fricção em experiências digitais e deixar times com menos retrabalho.',
+    portfolioEyebrow: 'Portfólio',
+    portfolioTitle: 'Projetos em destaque',
     portfolioHint: 'Estudos, freelas e entregas reais',
     blogEyebrow: 'Blog',
     blogTitle: 'Carreira, UI/UX e aprendizados',
     blogSeeAll: 'Ver todos ↗',
+    blogBackLabel: '← Voltar',
     readMore: 'Ler →',
+    viewMore: 'Ver mais ↗',
     contactTitle: 'Vamos conversar sobre seu produto',
     contactBody:
       'Me escreva sobre ideias, produtos ou freelas. Respondo rápido e trago propostas enxutas com foco em resultado.',
+    contactEyebrow: 'Contato',
     footerCredit: 'Feito com React + Vite + TypeScript.',
+    footerQuote: "Un coup de dés jamais n'abolira le hasard — Mallarmé",
     footerEmailLabel: 'Email',
     email: 'elenrebeca280@gmail.com',
     dateLocale: 'pt-BR',
@@ -135,19 +149,26 @@ const locales: Record<LocaleKey, LocaleContent> = {
       'Sou uma desenvolvedora full stack no início da carreira, com olhar sério, inspirador e bem-humorado. Curto equilibrar acessibilidade, performance e impacto social em tudo o que entrego.',
     ctaPrimary: 'Ver projetos',
     ctaSecondary: 'Vamos conversar sobre o seu produto',
+    aboutEyebrow: 'Sobre',
     aboutTitle: 'Objetiva, direta e presente',
     aboutHint: 'Acessibilidade • Performance • Impacto social',
     aboutBody:
       'Gosto de projetos enxutos que resolvem problemas reais. A minha combinação preferida é código limpo, decisões de UX claras e entregas frequentes. Estudo continuamente para reduzir fricção e evitar retrabalho.',
+    portfolioEyebrow: 'Portefólio',
+    portfolioTitle: 'Projetos em destaque',
     portfolioHint: 'Estudos, freelas e entregas reais',
     blogEyebrow: 'Blog',
     blogTitle: 'Carreira, UI/UX e aprendizagens',
     blogSeeAll: 'Ver todos ↗',
+    blogBackLabel: '← Voltar',
     readMore: 'Ler →',
+    viewMore: 'Ver mais ↗',
     contactTitle: 'Vamos conversar sobre o seu produto',
     contactBody:
       'Escreva-me sobre ideias, produtos ou freelas. Respondo rápido e trago propostas enxutas com foco em resultado.',
+    contactEyebrow: 'Contacto',
     footerCredit: 'Feito com React + Vite + TypeScript.',
+    footerQuote: "Un coup de dés jamais n'abolira le hasard — Mallarmé",
     footerEmailLabel: 'Email',
     email: 'elenrebeca280@gmail.com',
     dateLocale: 'pt-PT',
@@ -213,19 +234,26 @@ const locales: Record<LocaleKey, LocaleContent> = {
       'I am an early-career full stack developer who balances accessibility, performance, and social impact with a serious, inspiring, and upbeat tone.',
     ctaPrimary: 'View projects',
     ctaSecondary: 'Let’s talk about your product',
+    aboutEyebrow: 'About',
     aboutTitle: 'Objective, direct, and present',
     aboutHint: 'Accessibility • Performance • Social impact',
     aboutBody:
       'I like lean projects that solve real problems. Clean code, clear UX decisions, and frequent delivery are my trio. I study constantly to reduce friction and keep teams from rework.',
+    portfolioEyebrow: 'Portfolio',
+    portfolioTitle: 'Featured projects',
     portfolioHint: 'Studies, freelance, and shipped work',
     blogEyebrow: 'Blog',
     blogTitle: 'Career, UI/UX, and learnings',
     blogSeeAll: 'See all ↗',
+    blogBackLabel: '← Back',
     readMore: 'Read →',
+    viewMore: 'See more ↗',
     contactTitle: 'Let’s talk about your product',
     contactBody:
       'Reach out about ideas, products, or freelance work. I respond fast with lean proposals focused on outcomes.',
+    contactEyebrow: 'Contact',
     footerCredit: 'Built with React + Vite + TypeScript.',
+    footerQuote: "Un coup de dés jamais n'abolira le hasard — Mallarmé",
     footerEmailLabel: 'Email',
     email: 'elenrebeca280@gmail.com',
     dateLocale: 'en-US',
@@ -291,19 +319,26 @@ const locales: Record<LocaleKey, LocaleContent> = {
       'Soy una desarrolladora full stack al inicio de la carrera; equilibrio accesibilidad, rendimiento e impacto social con un tono serio, inspirador y buen humor.',
     ctaPrimary: 'Ver proyectos',
     ctaSecondary: 'Hablemos de tu producto',
+    aboutEyebrow: 'Sobre mí',
     aboutTitle: 'Objetiva, directa y presente',
     aboutHint: 'Accesibilidad • Rendimiento • Impacto social',
     aboutBody:
       'Prefiero proyectos ajustados que resuelven problemas reales. Código limpio, decisiones de UX claras y entregas frecuentes son mi base. Estudio siempre para reducir fricción y evitar retrabajo.',
+    portfolioEyebrow: 'Portafolio',
+    portfolioTitle: 'Proyectos destacados',
     portfolioHint: 'Estudios, freelance y entregas reales',
     blogEyebrow: 'Blog',
     blogTitle: 'Carrera, UI/UX y aprendizajes',
     blogSeeAll: 'Ver todos ↗',
+    blogBackLabel: '← Volver',
     readMore: 'Leer →',
+    viewMore: 'Ver más ↗',
     contactTitle: 'Hablemos de tu producto',
     contactBody:
       'Escríbeme sobre ideas, productos o proyectos freelance. Respondo rápido con propuestas concisas y orientadas a resultados.',
+    contactEyebrow: 'Contacto',
     footerCredit: 'Hecho con React + Vite + TypeScript.',
+    footerQuote: "Un coup de dés jamais n'abolira le hasard — Mallarmé",
     footerEmailLabel: 'Email',
     email: 'elenrebeca280@gmail.com',
     dateLocale: 'es-ES',
@@ -351,12 +386,13 @@ const locales: Record<LocaleKey, LocaleContent> = {
     contacts: [
       { label: 'Email', href: 'mailto:elenrebeca280@gmail.com' },
       { label: 'GitHub', href: 'https://github.com/rebecaelens' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rebeca-rodrigues-a184b7288/' },
     ],
     countryOptions: [
       { value: 'br', label: 'Brasil' },
       { value: 'pt', label: 'Portugal' },
       { value: 'us', label: 'Estados Unidos' },
-      { value: 'es', label: 'Espanha' },
+      { value: 'es', label: 'España' },
       { value: 'cn', label: 'China' },
     ],
   },
@@ -368,19 +404,26 @@ const locales: Record<LocaleKey, LocaleContent> = {
       '我是一名职业初期的全栈开发者，严谨又带点幽默，关注无障碍、性能和社会影响，并在三者间取得平衡。',
     ctaPrimary: '查看项目',
     ctaSecondary: '聊聊你的产品',
+    aboutEyebrow: '关于我',
     aboutTitle: '客观、直接、到位',
     aboutHint: '无障碍 • 性能 • 社会影响',
     aboutBody:
       '我喜欢精简且解决真实问题的项目。干净的代码、清晰的 UX 决策和频繁交付是基础。我持续学习以减少摩擦，避免返工。',
+    portfolioEyebrow: '作品集',
+    portfolioTitle: '精选项目',
     portfolioHint: '学习项目、自由职业与交付案例',
     blogEyebrow: '博客',
     blogTitle: '职业、生涯、UI/UX 与学习',
     blogSeeAll: '查看全部 ↗',
+    blogBackLabel: '← 返回',
     readMore: '阅读 →',
+    viewMore: '查看更多 ↗',
     contactTitle: '聊聊你的产品',
     contactBody:
       '欢迎交流想法、产品或自由职业合作。我会快速回复，给出精简且以结果为导向的方案。',
+    contactEyebrow: '联系方式',
     footerCredit: '使用 React + Vite + TypeScript 构建。',
+    footerQuote: "Un coup de dés jamais n'abolira le hasard — Mallarmé",
     footerEmailLabel: 'Email',
     email: 'elenrebeca280@gmail.com',
     dateLocale: 'zh-CN',
@@ -428,6 +471,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
     contacts: [
       { label: 'Email', href: 'mailto:elenrebeca280@gmail.com' },
       { label: 'GitHub', href: 'https://github.com/rebecaelens' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rebeca-rodrigues-a184b7288/' },
     ],
     countryOptions: [
       { value: 'br', label: '巴西' },
@@ -482,7 +526,7 @@ function App() {
         <section id="sobre" className="section">
           <div className="section-header">
             <div>
-              <p className="eyebrow">Sobre</p>
+              <p className="eyebrow">{locale.aboutEyebrow}</p>
               <h2>{locale.aboutTitle}</h2>
             </div>
             <span className="hint">{locale.aboutHint}</span>
@@ -493,8 +537,8 @@ function App() {
         <section id="projetos" className="section">
           <div className="section-header">
             <div>
-              <p className="eyebrow">Portfólio</p>
-              <h2>Projetos em destaque</h2>
+              <p className="eyebrow">{locale.portfolioEyebrow}</p>
+              <h2>{locale.portfolioTitle}</h2>
             </div>
             <span className="hint">{locale.portfolioHint}</span>
           </div>
@@ -505,7 +549,7 @@ function App() {
                   <h3>{project.title}</h3>
                   {project.link && (
                     <a className="link" href={project.link}>
-                      Ver mais ↗
+                      {locale.viewMore}
                     </a>
                   )}
                 </div>
@@ -529,7 +573,7 @@ function App() {
               <h2>{locale.blogTitle}</h2>
             </div>
             <button className="blog-toggle" onClick={() => setSelectedPost(null)}>
-              {selectedPost ? '← Voltar' : locale.blogSeeAll}
+              {selectedPost ? locale.blogBackLabel : locale.blogSeeAll}
             </button>
           </div>
           {selectedPost ? (
@@ -564,7 +608,7 @@ function App() {
 
         <section id="contato" className="section contact">
           <div>
-            <p className="eyebrow">Contato</p>
+            <p className="eyebrow">{locale.contactEyebrow}</p>
             <a href={`mailto:${locale.email}`} className="contact-title-link">
               <h2>{locale.contactTitle}</h2>
             </a>
@@ -582,7 +626,7 @@ function App() {
 
       <footer className="footer">
         <span>{locale.footerCredit}</span>
-        <span>Un coup de dés jamais n'abolira le hasard — Mallarmé</span>
+        <span>{locale.footerQuote}</span>
         <a className="link" href={`mailto:${locale.email}`}>
           {locale.email}
         </a>
