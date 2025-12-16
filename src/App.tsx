@@ -510,7 +510,7 @@ function App() {
           </div>
         </div>
         <div className="hero-body">
-          <div className="avatar" aria-hidden="true" style={{ ['--base-url' as any]: import.meta.env.BASE_URL }} />
+          <div className="avatar" aria-hidden="true" />
           <div className="hero-copy">
             <h1>{locale.heroTitle}</h1>
             <p className="lede">{locale.heroLede}</p>
