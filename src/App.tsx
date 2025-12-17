@@ -93,7 +93,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
         description:
           'Experiência unificada de autoatendimento que conecta o caixa físico à operação online, com autenticação segura e painéis de status em tempo real.',
         tags: ['Full stack', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
-        link: 'https://github.com/rebecaelen/SVMR',
+        link: 'https://github.com/rebecaelens/Sistema-de-PetShop.git',
       },
       {
         title: 'Loja online sob medida',
@@ -178,7 +178,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
         description:
           'Experiência unificada de autoatendimento que liga o caixa físico à operação online, com autenticação segura e painéis em tempo real.',
         tags: ['Full stack', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
-        link: 'https://github.com/rebecaelen/SVMR',
+        link: 'https://github.com/rebecaelens/Sistema-de-PetShop.git',
       },
       {
         title: 'Loja online sob medida',
@@ -263,7 +263,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
         description:
           'Unified self-service experience tying the physical checkout to the online operation, with secure auth and real-time status boards.',
         tags: ['Full stack', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
-        link: 'https://github.com/rebecaelen/SVMR',
+        link: 'https://github.com/rebecaelens/Sistema-de-PetShop.git',
       },
       {
         title: 'Tailored online store',
@@ -348,7 +348,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
         description:
           'Experiencia unificada de autoservicio que conecta la caja física con la operación online, con autenticación segura y paneles en tiempo real.',
         tags: ['Full stack', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
-        link: 'https://github.com/rebecaelen/SVMR',
+        link: 'https://github.com/rebecaelens/Sistema-de-PetShop.git',
       },
       {
         title: 'Tienda online a medida',
@@ -433,7 +433,7 @@ const locales: Record<LocaleKey, LocaleContent> = {
         description:
           '统一的自助体验，将线下收银与线上运营相连，安全认证与实时状态面板齐备。',
         tags: ['全栈', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
-        link: 'https://github.com/rebecaelen/SVMR',
+        link: 'https://github.com/rebecaelens/Sistema-de-PetShop.git',
       },
       {
         title: '定制化网上商店',
